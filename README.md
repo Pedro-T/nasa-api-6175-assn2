@@ -7,21 +7,31 @@ Your new page should use react-router-dom to navigate to a new URL. You should u
 
 Make sure to map through responses when it is an array and just display it once when it is not an Array.
 
-### Examples
+## Notes
+* React Router is used to switch between each of the four pages with an Outlet.
+* The APODViewer component is common to all pages and displays the results organized into columns.
+* User can click on the image to view full size in a new tab.
+* API key is set in application.properties if necessary, otherwise using DEMO_KEY
+
+### Screenshots
 
 Current Photo (default landing page)
 
-!["Example of default page, showing the current APOD photo"](https://imgur.com/a/wRyIO35)
+![fzf6DYo](https://github.com/Pedro-T/nasa-api-6175-assn2/assets/15681739/1906d16b-f8aa-4306-9557-2be0ea94ce3c)
+
 
 Random Count of Photos
 
-!["Example of the random / count page, showing three photos"](https://imgur.com/XcLbSrP)
+![XcLbSrP](https://github.com/Pedro-T/nasa-api-6175-assn2/assets/15681739/53ff0842-7fa0-4ddc-b53f-c4fcba565f04)
+
 
 Single Date Selected
 
-!["Example of the single date page, showing one photo"](https://imgur.com/mKyTiiC)
+![mKyTiiC](https://github.com/Pedro-T/nasa-api-6175-assn2/assets/15681739/a9fb73ab-3ec1-4389-9e4c-200e07f651e5)
+
 
 Date Range
 
-!["Example of the date range page, showing three photos"](https://imgur.com/BH264AP)
+![BH264AP](https://github.com/Pedro-T/nasa-api-6175-assn2/assets/15681739/2ff0590e-8b93-42f7-a1d7-ab5c34cf35fd)
+
 
