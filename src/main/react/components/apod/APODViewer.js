@@ -7,7 +7,7 @@ const APODViewer = ({data}) => {
     if (data.length === 2) {
         colClass = "col-6";
     } else if (data.length === 1) {
-        colClass = "col-4";
+        colClass = "col-10";
     }
 
     return (
